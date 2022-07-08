@@ -36,11 +36,12 @@ public class Persona {
         double promedio = 0;
         double suma = 0;
         for (int i = 0; i < lista.size(); i++) {
-            suma = lista.get(i).obtenerEdad();
+            suma = suma + lista.get(i).obtenerEdad();
         }
         promedio = suma / lista.size();
         return promedio;
     }
+    /* Este es un ArrayList para sacar promedio ojo */
 
     public String obtenerNombrePais() {
         return "Ecuador";
