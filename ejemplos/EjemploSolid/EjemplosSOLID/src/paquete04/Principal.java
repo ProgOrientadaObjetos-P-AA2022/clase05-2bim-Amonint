@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author reroes
+/*  * @author reroes
  */
 public class Principal {
     public static void main(String[] args) {
@@ -35,5 +35,5 @@ public class Principal {
         System.out.printf("Promedio de Tarifas: %.2f", 
                 tipos.obtenerPromedioTarifas());
         
-    }
+    } */
 }

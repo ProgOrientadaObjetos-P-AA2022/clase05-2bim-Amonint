@@ -9,6 +9,7 @@ package paquete06;
  */
 public class Principal {
     public static void main(String[] args) {
+        /* Se crea menor y representante */
         
         MayorEdad representante = new MayorEdad("José", "Visa");
         
